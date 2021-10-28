@@ -1,0 +1,110 @@
+body {
+  background-image: url("C:/Users/KIIT/Desktop/Challenge 1/order-summary-component-main/images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+.cancel-order {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+a:hover{
+  text-decoration: none;
+  color: hsl(223, 47%, 23%);
+}
+.context {
+  padding-left: 25%;
+  width: 50%;
+}
+
+.topic {
+  text-align: center;
+  margin: 50px;
+}
+
+.music {
+  float: left;
+  padding-left: 100px;
+  padding-top: 13px;
+  padding-right: 30px;
+}
+
+.btn {
+  margin-left: 13%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+  background: #3484d9;
+  background-image: -webkit-linear-gradient(top, #3484d9, #2b36b8);
+  background-image: -moz-linear-gradient(top, #3484d9, #2b36b8);
+  background-image: -ms-linear-gradient(top, #3484d9, #2b36b8);
+  background-image: -o-linear-gradient(top, #3484d9, #2b36b8);
+  background-image: linear-gradient(to bottom, #3484d9, #2b36b8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 6px 18px 7px 12px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7e70ed;
+  background-image: -webkit-linear-gradient(top, #7e70ed, #5647d9);
+  background-image: -moz-linear-gradient(top, #7e70ed, #5647d9);
+  background-image: -ms-linear-gradient(top, #7e70ed, #5647d9);
+  background-image: -o-linear-gradient(top, #7e70ed, #5647d9);
+  background-image: linear-gradient(to bottom, #7e70ed, #5647d9);
+  text-decoration: none;
+}
+.fee-class{
+  display: inline-block;
+}
+.fee{
+  display: grid;
+  text-align: left;
+  line-height: 0.5;
+}
+.payment {
+  clear: left;
+  text-align: center;
+  display: grid;
+  line-height: 3;
+}
+
+.change-plan {
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  display: inline;
+  color: hsl(245, 75%, 52%);
+}
+
+.checkout {
+  border-width: 5px;
+  border-radius: 5%;
+  margin: 10% auto;
+  display: block;
+  width: 30%;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.hero-img {
+  width: 100%;
+  border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
+}
